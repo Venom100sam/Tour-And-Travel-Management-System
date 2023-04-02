@@ -1,27 +1,27 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Form, FormGroup, Button } from 'reactstrap'
-// import {Link} from 'react-router-dom'
 import '../styles/login.css'
 
+// Importing image assets
 import loginImg from '../assets/images/login.png'
 import userIcon from '../assets/images/user.png'
 
-
+// Defining Login component
 const Login = () => {
-
+  // Defining state for user credentials
   const [credentials, setCredentials] = useState({
     email: undefined,
     password: undefined
   });
-
-  // const handleChange =e => {
-  //   setCredentials{prev => ({ ...prev, [e.target.id]: e.target.value })}
-  // };
-
-  // const handleClick = e => {
-  //   e.preventDefault()
-  // };
-
+// Function to handle change in form input fields
+  const handleChange =e => {
+    setCredentials(prev => ({ ...prev, [e.target.id]: e.target.value }));
+  };
+// Function to handle click event
+  const handleClick = e=>{
+    e.preventDefault()
+  }
+// Rendering Login component
   return (
     <section>
       <Container>
@@ -37,13 +37,13 @@ const Login = () => {
                   <img src={userIcon} alt="usericon" />
                 </div>
                   <h2>Login</h2>
-
-                  <Form>
+                  {/* =================Login form =========================*/}
+                  <Form onSubmit={handleClick}>
                     <FormGroup>
-                      <input type="text" placeholder="Email" required id="email" /*onChange={handleChange}*/ />
+                      <input type="email" placeholder="Email" required id="email" onChange={handleChange} />
                     </FormGroup>
                     <FormGroup>
-                      <input type="password" placeholder="Password" required id="password" /*onChange={handleChange}*/ />
+                      <input type="password" placeholder="Password" required id="password" onChange={handleChange} />
                     </FormGroup>
                     <Button className="btn secondary__btn auth__btn" type="submit">
                       Login
