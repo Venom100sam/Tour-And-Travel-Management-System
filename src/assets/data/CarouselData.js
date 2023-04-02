@@ -5,23 +5,23 @@ import Image4 from '../images/imgSlide4.jpg'
  
 export const images =[
     {
-        title: "title 1", 
-        subtitle: "this is subtitle1", 
+        // title: "title 1", 
+        // subtitle: "this is subtitle1", 
         img: Image1
     },
     {
-        title: "title 2", 
-        subtitle: "this is subtitle2", 
+        // title: "title 2", 
+        // subtitle: "this is subtitle2", 
         img: Image2
     },
     {
-        title: "title 3", 
-        subtitle: "this is subtitle3", 
+        // title: "title 3", 
+        // subtitle: "this is subtitle3", 
         img: Image3
     },
     {
-        title: "title 4", 
-        subtitle: "this is subtitle4", 
+        // title: "title 4", 
+        // subtitle: "this is subtitle4", 
         img: Image4
     },
 ];

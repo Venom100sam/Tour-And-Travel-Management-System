@@ -1,12 +1,12 @@
 import React from 'react'
-// import ImageSlider from '../Components/ImageSlider/ImgSlider'
 import Carousel from '../Components/ImageSlider/Carousel'
+import SearchBar from '../shared/SearchBar'
 
 const Home = () => {
   return (
     <div>
-      {/* <ImageSlider /> */}
       <Carousel />
+      <SearchBar />
     </div>
   )
 }
