@@ -1,0 +1,92 @@
+.about-us {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin: 0;
+    position: relative;
+    
+   
+  }
+  
+  .img-about img {
+    height: 463px;
+    width: 1440px;
+  }
+
+  .img-about h1 {
+    position: absolute;
+    top: 350px;
+    left: 120px;
+    color: blanchedalmond;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    /* li {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 5px;
+    } */
+  }
+
+  .description{
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .description h5{
+    padding: 20px;
+    font-weight: bold;
+  }
+
+  .counter {
+    height: 303px;
+    width: 1441px;
+    position: relative;
+    background-color: black; 
+    }
+
+    .counter-b {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: white;
+      display: flex;
+      margin-left: 120px;
+      margin-right: 120px;
+      padding: 130px;
+      justify-content: center;
+      align-items: center;
+      font-size: large;
+      
+    }
+
+    .counter-trips{
+      padding: 40px;
+      
+    }
+
+    .counter-customers{
+      padding: 40px;
+    }
+
+    .counter-responses{
+      padding: 40px;
+    }
+
+
+ 
+    

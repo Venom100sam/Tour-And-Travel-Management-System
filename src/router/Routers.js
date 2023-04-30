@@ -2,6 +2,7 @@ import React from 'react'
 import {Routes, Route, Navigate} from 'react-router-dom';
 
 import Home from './../pages/Home';
+import Dashboard  from '../pages/AboutUs';
 import Packages from './../pages/Packages';
 import SearchResult from './../pages/SearchResult';
 import Login from './../pages/Login';
@@ -20,6 +21,7 @@ const Routers = () => {
       <Route path='/about-us' element={<AboutUs />}/>
       <Route path='/contact-us' element={<ContactUs />}/>
       <Route path='/login' element={<Login />}/>
+      <Route path='/dashboard' element={<Dashboard />}/>
     </Routes>
   )
 }
