@@ -1,5 +1,4 @@
 .about-us {
-    font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 0px;
     margin: 0;
@@ -10,18 +9,13 @@
   
   .img-about img {
     height: 463px;
-    width: 1440px;
-  }
+    width: 100%;
 
-  .img-about h1 {
-    position: absolute;
-    top: 350px;
-    left: 120px;
-    color: blanchedalmond;
   }
   
   p {
-    font-size: 18px;
+    
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 10px;
   }
@@ -56,13 +50,13 @@
 
   .counter {
     height: 303px;
-    width: 1441px;
+    width: 100%;
     position: relative;
     background-color: black; 
     }
 
     .counter-b {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
       color: white;
       display: flex;
       margin-left: 120px;

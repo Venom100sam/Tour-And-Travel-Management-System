@@ -61,6 +61,7 @@ ul {
   color: #0b2727 !important;
   border: none !important;
   font-weight: 500 !important;
+  width: 95%;
 }
 
 .secondary__btn a {

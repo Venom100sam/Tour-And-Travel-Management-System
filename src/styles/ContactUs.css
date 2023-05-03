@@ -1,0 +1,60 @@
+.img-contact img {
+    height: 594px;
+    width: 100%;
+  }
+  
+.queries{
+    margin-right: 20px;
+    margin-left: 200px;
+    height: 715px;
+    width: 407px;
+    border: 2px;
+    background-color: #d9d9d9;
+    align-items: center;
+    margin-top: 10em
+
+}
+
+
+.form{
+
+    padding-left: 15px;
+    padding-top: 13px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+h3{
+    padding-top: 17px;
+    padding-left: 6px;
+}
+
+.btn secondary__btn auth__btn{
+    padding-left: 20px;
+}
+
+.queries input{
+    width: 90%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-style: 1rem;
+    color: var(--heading-color);
+}
+
+.textarea{
+    width: 90%;
+}
+
+.details{
+    background-color: #d9d9d9;
+    height: 600px;
+    margin-top: 10em;
+    margin-left: 0px;
+    
+}
+
+.location-png img{
+    height: 20px;
+    padding-right: 8px;
+}

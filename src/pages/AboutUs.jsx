@@ -9,7 +9,6 @@ const AboutUs = () => {
         <div className="about-us">
           
           <div className='img-about'><img src={Image} />
-          <h1>About Us</h1>
           </div>
 
           <div className='description'>
@@ -21,25 +20,25 @@ const AboutUs = () => {
 
           <div className='counter'>
             <div className='counter-b'>
-            <div className='counter-trips'>
-              <p>0</p>
-              <p>Trips</p>
+              <div className='counter-trips'>
+                <p>0</p>
+                <p>Trips</p>
+              </div>
+              <div className='counter-customers'>
+                <p>0</p>
+                <p>Customers</p>
+              </div>
+              <div className='counter-response'>
+                <p>0</p>
+                <p>Happy Customers
+               </p>
+              </div>
             </div>
-            <div className='counter-customers'>
-              <p>0</p>
-              <p>Customers</p>
-            </div>
-            <div className='counter-response'>
-              <p>0</p>
-              <p>Happy Customers
-              </p>
-            </div>
-            </div>
-          </div>
-<div>
+         </div>
+              <div>
   
-<Slide />
-  </div>         
+                  <Slide />
+              </div>         
         </div>
     );
 }
