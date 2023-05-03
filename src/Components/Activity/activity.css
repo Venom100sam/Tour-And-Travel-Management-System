@@ -1,0 +1,21 @@
+
+h2{
+    font-size: 3.2em;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.video_box video{
+ margin-top: 20px;
+ width: 175px;
+ height: 350px;
+ border-radius: 10px;  
+ border: 1px solid var(--secondary-color);
+ object-fit: cover; 
+}
+
+h4{
+    text-align: center;
+}
