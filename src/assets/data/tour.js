@@ -12,16 +12,17 @@ const tours = [
     title: "Westminister Bridge",
     city: "London",
     distance: 300,
+    address: 'Somewhere',
     price: 99,
     maxGroupSize: 10,
     desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
+    // reviews: [
+    //   {
+    //     name: "jhon doe",
+    //     rating: 4.6,
+    //   },
+    // ],
+    // avgRating: 4.5,
     photo: tourImg01,
     featured: true,
   },
@@ -30,16 +31,17 @@ const tours = [
     title: "Bali, Indonesia",
     city: "Indonesia",
     distance: 400,
+    address: 'Somewhere',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
+    // reviews: [
+    //   {
+    //     name: "jhon doe",
+    //     rating: 4.6,
+    //   },
+    // ],
+    // avgRating: 4.5,
     photo: tourImg02,
     featured: true,
   },
@@ -48,16 +50,17 @@ const tours = [
     title: "Snowy Mountains, Thailand",
     city: "Thailand",
     distance: 500,
+    address: 'Somewhere',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
+    // reviews: [
+    //   {
+    //     name: "jhon doe",
+    //     rating: 4.6,
+    //   },
+    // ],
+    // avgRating: 4.5,
     photo: tourImg03,
     featured: true,
   },
@@ -66,16 +69,17 @@ const tours = [
     title: "Beautiful Sunrise, Thailand",
     city: "Thailand",
     distance: 500,
+    address: 'Somewhere',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
+    // reviews: [
+    //   {
+    //     name: "jhon doe",
+    //     rating: 4.6,
+    //   },
+    // ],
+    // avgRating: 4.5,
     photo: tourImg04,
     featured: true,
   },
@@ -84,16 +88,17 @@ const tours = [
     title: "Nusa Pendia Bali, Indonesia",
     city: "Indonesia",
     distance: 500,
+    address: 'Somewhere',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
+    // reviews: [
+    //   {
+    //     name: "jhon doe",
+    //     rating: 4.6,
+    //   },
+    // ],
+    // avgRating: 4.5,
     photo: tourImg05,
     featured: false,
   },
@@ -102,16 +107,17 @@ const tours = [
     title: "Cherry Blossoms Spring",
     city: "Japan",
     distance: 500,
+    address: 'Somewhere',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
+    // reviews: [
+    //   {
+    //     name: "jhon doe",
+    //     rating: 4.6,
+    //   },
+    // ],
+    // avgRating: 4.5,
     photo: tourImg06,
     featured: false,
   },
@@ -120,16 +126,17 @@ const tours = [
     title: "Holmen Lofoten",
     city: "France",
     distance: 500,
+    address: 'Somewhere',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
+    // reviews: [
+    //   {
+    //     name: "jhon doe",
+    //     rating: 4.6,
+    //   },
+    // ],
+    // avgRating: 4.5,
     photo: tourImg07,
     featured: false,
   },
@@ -138,16 +145,17 @@ const tours = [
     title: "Snowy Mountains, Thailand",
     city: "Thailand",
     distance: 500,
+    address: 'Somewhere',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
+    // reviews: [
+    //   {
+    //     name: "jhon doe",
+    //     rating: 4.6,
+    //   },
+    // ],
+    // avgRating: 4.5,
     photo: tourImg03,
     featured: false,
   },

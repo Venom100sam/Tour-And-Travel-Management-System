@@ -1,0 +1,73 @@
+.footer{
+    background-color: black;
+    opacity: 85%;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer .logo{
+    color: azure;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.footer .logo p{
+    font-size: 14px;
+    margin: 1rem auto;
+    width: 250px;
+}
+
+.social__links span a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1.2rem;
+}
+
+.footer__link-title{
+    color:azure;
+    margin-bottom: 1rem;
+}
+
+.footer__quick-links {
+    background-color: transparent;
+    background-color: black !important;
+}
+
+
+.footer__quick-links a,.footer__quick-links2 a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1.1rem;
+    background-color: transparent;
+    background-color: black !important;
+    opacity: 85%;
+}
+
+.footer__quick-links a:hover,.footer__quick-links2 a:hover{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.1rem;
+    background-color: black;
+    opacity: 85%;
+}
+
+.contact {
+    color: azure;
+    font-size: 14px;
+    width: 120px;
+    background-color: black;
+    opacity: 85%;
+}
+
+.footer__quick-links h6{
+    color: azure;
+    background-color: black;
+    opacity: 85%;
+}
+
+.footer__quick-links h6 span i{
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+}
+
+

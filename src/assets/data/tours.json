@@ -9,7 +9,7 @@
       "desc": "this is the description",
       "reviews": [],
   
-      "photo": "/tour-images/tour-img01.jpg",
+      "photo": "./images/tour-img01.jpg",
       "featured": true
     },
     {
@@ -127,6 +127,6 @@
       "reviews": [],
   
       "photo": "/tour-images/tour-img09.jpg",
-      "featured": false
+      "featured": true
     }
   ]

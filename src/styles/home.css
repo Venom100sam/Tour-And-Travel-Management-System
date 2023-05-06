@@ -1,0 +1,10 @@
+.Featured_package-title, .blog__title{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
