@@ -5,6 +5,7 @@ import tourImg04 from "../images/tour-img04.jpg";
 import tourImg05 from "../images/tour-img05.jpg";
 import tourImg06 from "../images/tour-img06.jpg";
 import tourImg07 from "../images/tour-img07.jpg";
+import tourImg08 from "../images/tour-img08.jpg";
 
 const tours = [
   {
@@ -33,7 +34,7 @@ const tours = [
   },
   {
     id: "03",
-    title: "Annapurna Base Camp",
+    title: "Annapurna Base Camp Trek",
     city: "Annapurna Region",
     distance: 500,
     address: 'Annapurna Conservation Area',
@@ -59,50 +60,51 @@ const tours = [
 
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
+    title: "Kathmandu Vacation",
+    city: "Kathmandu",
     distance: 500,
-    address: 'Somewhere',
+    address: 'Kathmandu',
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Kathmandu, the capital city of Nepal, is a vibrant and bustling city known for its ancient temples, rich culture, and stunning mountain views. A vacation in Kathmandu can be combined with a day trip to two nearby destinations, Bhaktapur and Nagarkot, to make the most of your visit.    Bhaktapur, located just outside of Kathmandu, is a UNESCO World Heritage Site famous for its well-preserved medieval architecture and ancient temples. Visitors can wander through the narrow alleys of the old city and admire the intricately carved wooden windows, doors, and facades of the buildings.Nagarkot, a hill station located about an hour's drive from Kathmandu, offers panoramic views of the Himalayan mountain range, including Mount Everest. Visitors can take a short hike to a viewpoint or simply relax and enjoy the peaceful surroundings.Combining a Kathmandu vacation with a day trip to Bhaktapur and Nagarkot offers a diverse and memorable travel experience, with a mix of cultural exploration and natural beauty.",
+
     photo: tourImg05,
     featured: false,
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
+    title: "Nepal Religious Tour",
+    city: "Kathmandu",
     distance: 500,
-    address: 'Somewhere',
+    address: 'Kathmandu, Lumbini, Pokhara, Muktinath',
     price: 99,
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Nepal Religious Tour Package is designed to provide pilgrims with their travel needs in Nepal. It covers some of the major sightseeing places in Kathmandu and Pokhara. And besides that the incredible pilgrimages of Pashupatinath, Muktinath, Lumbini and Janakpur are included. All of these places are of significant value. In fact, this tour is best suitable for people with religious interest and alongside wants to explore the beautiful mountain vistas and plains of Nepal.A diverse landscape can be explored on this trip. In a short period, you will be visiting the lowlands as low as the elevation of 74 m. above sea level and mountains as high as 3800 m above sea level. In addition, the mid valleys, mountains and plains make a perfect combo for the travellers as it will be an amazingly insightful and very fruitful trip in beautiful Nepal.Kathmandu valley is one of the major attractions of the trip. The valley is the administrative capital and culturally enriched place. In addition, there are several Durbar Squares, monuments, Stupas and museums. You will be visiting religiously prominent sites of the valley. The Pashupatinath Temple, Jal Narayan, Patan Durbar Square and Banglamukhi Temple are some major attractions. The pilgrimage of Pashupatinath is considered the greatest, having a significance embodied with the greatest god Lord Shiva. ",
     photo: tourImg06,
     featured: false,
   },
   {
     id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
+    title: "Everest Base Camp Trek",
+    city: "Everest Region",
     distance: 500,
-    address: 'Somewhere',
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
+    address: 'Everest Region',
+    price: 300,
+    maxGroupSize: 15,
+    desc: "Short Everest Base Camp Trek 10 Days is a dream route for trekkers, where one can walk from Lukla to Everest Base Camp in 4 hours a day. The best time to trek is from JAN to May and mid-August to December. The trek offers a chance to explore snowfall, narrow trails, and snow-clad mountains, but fitness is important due to higher altitudes and inclement weather. It is recommended to engage with a seasoned trekking company who will arrange everything for the trek. The trek takes longer than anticipated, but a good trekking company will follow the pre-scheduled itinerary. The trek starts with arrival in Kathmandu and the trekking agency will provide accommodation, food, and refreshments. Each day offers a new schedule, and trekkers will visit famous places like Namche Bazaar and Tengboche Monastery.",
     photo: tourImg07,
     featured: false,
   },
   {
     id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Ultimate Adventure Tour",
+    city: "Kathmandu",
     distance: 500,
-    address: 'Somewhere',
-    price: 99,
+    address: 'Kathmandu, Pokhara, Ghorepani, Poon Hill',
+    price: 300,
     maxGroupSize: 8,
-    desc: "this is the description",
-    photo: tourImg03,
+    desc: "Adventure has vivid dimensions and to bridge the gap Holidays to Nepal offers an inclusive trip that takes you through places and allows you to explore the ultimate adventure tour activities in Nepal. A mix of soft and hardcore adventure is intricately blended to enhance your experiences in the multiple places of Nepal.If you are an adventure seeker and planning to visit Nepal this would be the ultimate travel alternative. Our 7 days ultimate adventure tour to Nepal covers all major adventure activities in Nepal. River rafting is the first and must-experience adventure in Nepal that you experience in the Trishuli river. Trekking is the next adventure one should experience in Nepal, you will walk from Ulleri to Ghorepani and Ghorepani to Poon Hill.Poon Hill is a famous viewpoint of the Annapurna region, one can see spectacular sunrise, and sunset and the Annapurna and Dhaulagiri range from 3310m in height. Bungee is the next adventure you will experience in Kushma at the Cliff resort, which is 228m in height. A full-day adventure in Pokhara covers UltraLight flight, Paragliding, Zip Flying and Cycling. Finally, you will fly back to Kathmandu and visit two of the famous world heritage sites of Nepal. Which are Swayambhunath and Kathmandu Durbar Square. Besides that, you can explore the Thamel tourist market and the nightlife of Kathmandu on your last staying night in Nepal. ",
+    photo: tourImg08,
     featured: false,
   },
 ];
