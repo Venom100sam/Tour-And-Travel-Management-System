@@ -11,6 +11,9 @@
 
 .tour__img{
     position: relative;
+    object-fit: cover;
+    width: 253px;
+    height: 169px;
 }
 
 .tour__img span{

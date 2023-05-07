@@ -11,8 +11,6 @@ import "./Navbar.css"
 const nav__links=[
     {   path:'/home',
         display:'Home'    },
-    {   path:'/',
-        display:'Destinations'    },
     {   path:'/packages',
         display:'Packages'    },
     {   path:'/contact-us',

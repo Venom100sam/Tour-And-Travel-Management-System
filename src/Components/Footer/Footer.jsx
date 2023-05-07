@@ -33,7 +33,7 @@ const Footer = () => {
         <Col lg='3'>
           <div className="logo">
             <img src={logo} alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Our Socials : </p>
 
             <div className="social__links d-flex align-items-center gap-4">
               <span>
