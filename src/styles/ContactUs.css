@@ -1,18 +1,18 @@
+.col-lg{
+   height: 715px;
+   width: 407px;
+}
 .img-contact img {
     height: 594px;
     width: 100%;
   }
   
 .queries{
-    margin-right: 20px;
-    margin-left: 200px;
     height: 715px;
     width: 407px;
-    border: 2px;
-    background-color: #d9d9d9;
-    align-items: center;
-    margin-top: 10em
-
+    background-color:#d9d9d9;
+    margin-top: 160px;
+    margin-left: 155px;
 }
 
 
@@ -27,10 +27,6 @@
 h3{
     padding-top: 17px;
     padding-left: 6px;
-}
-
-.btn secondary__btn auth__btn{
-    padding-left: 20px;
 }
 
 .queries input{
@@ -48,13 +44,53 @@ h3{
 
 .details{
     background-color: #d9d9d9;
-    height: 600px;
-    margin-top: 10em;
+    height: 250px;
+    margin-top: 160px;
     margin-left: 0px;
+    width: 407px;
     
+    
+}
+
+.CD-txt{
+    text-align: center;
+}
+
+.contact-details{
+    background-color: white;
+    width: 280px;
+    margin: 34px;
+    margin-left: 62px;
 }
 
 .location-png img{
     height: 20px;
     padding-right: 8px;
+    text-align: center;
+    margin: 6px;
+
 }
+
+.Tel-png img{
+    height: 20px;
+    padding-right: 8px;
+    text-align: center;
+    margin: 6px;
+}
+
+.Mobile-png img{
+    height: 20px;
+    padding-right: 6px;
+    text-align: center;
+    margin: 6px;
+    margin-left: 12px;
+}
+
+.Mail-png img{
+    height: 20px;
+    padding-right: 8px;
+    text-align: center;
+    margin: 6px;
+}
+
+
