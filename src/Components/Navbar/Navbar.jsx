@@ -1,4 +1,5 @@
 // package imports
+// import React, {useRef, useEffect} from 'react'
 import React from 'react'
 import {Container, Row} from 'reactstrap'
 import {NavLink} from 'react-router-dom'
@@ -10,8 +11,6 @@ import "./Navbar.css"
 const nav__links=[
     {   path:'/home',
         display:'Home'    },
-    {   path:'/',
-        display:'Destinations'    },
     {   path:'/packages',
         display:'Packages'    },
     {   path:'/contact-us',
@@ -20,9 +19,29 @@ const nav__links=[
         display:'AboutUs'    },
 ]
 
-const Navbar = () => {    
+const Navbar = () => {   
+    
+    // const headerRef =useRef(null)
+  
+    // const stickyHeaderFunc = () =>{
+    //     window.addEventListener('scroll',()=>{
+    //         if(document.body.scrollTop >80 || document.documentElement.scrollTop >80){
+    //             headerRef.current.classList.add('sticky__header')
+    //         }else{
+    //             headerRef.current.classList.remove('sticky__header')
+    //         }
+    //     })
+    // }
+
+    // useEffect(() => {
+    //     stickyHeaderFunc();
+
+    //     return window.removeEventListener('scroll', stickyHeaderFunc);
+    // });
+
   return (
-    <header className="header">
+    // <header className="header" ref={headerRef}>
+    <header className="header" >
         <Container>
             <Row>
                 <div className="nav__wrapper d-flex align-items-center justify-content-between">

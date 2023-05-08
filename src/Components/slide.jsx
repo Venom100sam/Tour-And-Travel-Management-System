@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../styles/styles.css'
-import Image from '../assets/images/Aboutus.jpeg';
 import Sameer from '../assets/images/Sameer.jpg';
 import Nirjal from '../assets/images/Nirjal.jpg';
 import Rahul from '../assets/images/Rahul.jpg';
@@ -43,6 +42,7 @@ const Slide = () => {
       <div className="image-container">
         <img src={member.image} alt={member.name} />
       </div>
+      
       <div className="info-container">
         <h3>{member.name}</h3>
         <p>{member.role}</p>
