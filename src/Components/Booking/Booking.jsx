@@ -22,8 +22,8 @@ const Booking = ({tour}) => {
         setCredentials(prev=>({...prev, [e.target.id]:e.target.value}))
     };
 
-    const serviceFee =1000
-    const totalAmount =Number(price) * Number(credentials.guestSize)+ Number(serviceFee)
+    const serviceFee =500
+    const totalAmount =Number(price) * Number(credentials.guestSize)+ Number(serviceFee) * Number(credentials.guestSize)
 
     //send data to the server
     const handleClick=e=>{
