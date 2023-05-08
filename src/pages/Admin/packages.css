@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #e90000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+  .sidebar {
+    background-color: #e90000;
+    height: calc(100vh - 60px);
+    width: 200px;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .main-content {
+    margin-left: 200px;
+    margin-right: 20px;
+    padding: 20px;
+  }
+  
+  /* Add some basic styling to the table */
+  .ant-table {
+    margin-top: 20px;
+  }
+  
