@@ -2,7 +2,9 @@ import React from 'react'
 import {Routes, Route, Navigate} from 'react-router-dom';
 
 import Home from './../pages/Home';
-import Dashboard  from '../pages/AboutUs';
+import Dashboard  from '../pages/Admin/dashboard';
+// import adminPackage  from '../pages/Admin/packages';
+
 import Packages from './../pages/Packages';
 import SearchResult from './../pages/SearchResult';
 import Login from './../pages/Login';
@@ -24,6 +26,7 @@ const Routers = () => {
       <Route path='/login' element={<Login />}/>
       <Route path='/thank-you' element={<ThankYou />}/>
       <Route path='/dashboard' element={<Dashboard />}/>
+      {/* <Route path='/admin/package' element={<adminPackage />}/> */}
     </Routes>
   )
 }

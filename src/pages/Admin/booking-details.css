@@ -1,0 +1,91 @@
+/* Support container */
+.support-container {
+    margin: 2rem auto;
+    max-width: 50rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #fff;
+  }
+  
+  /* Support form */
+  .support-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .support-container label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .support-container input,
+  .support-container textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  .support-container button {
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .support-container button:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Support tickets container */
+  .support-tickets-container {
+    margin: 2rem auto;
+    max-width: 50rem;
+  }
+  
+  .support-tickets-container h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .support-tickets-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .support-tickets-container th,
+  .support-tickets-container td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .support-tickets-container th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  
+  
+  /* Define a new class for the button */
+  .change-status-button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove button border */
+    padding: 5px 10px; /* Add padding to the button */
+    border-radius: 4px; /* Add rounded corners */
+  }
+  
+  /* Change the background color of the button when it's clicked */
+  .change-status-button:focus,
+  .change-status-button:active {
+    background-color: #0062cc;
+  }
+  
+  
+  
+  

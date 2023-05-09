@@ -46,7 +46,7 @@ const Booking = ({tour}) => {
   <div className="booking">
      <div className="booking__top d-flex  align-items-center justify-content-between">
         <h3>
-            ${price}
+            NPR {price}
             <span>/per person</span>
         </h3>
      </div>
@@ -65,7 +65,7 @@ const Booking = ({tour}) => {
             </FormGroup>
             <FormGroup className='d-flex  align-items-center gap-3'>
                 <input type="date" placeholder='' id='bookAt' required onChange={handleChange}/>
-                <input type="number" placeholder='Guest' id='guestSize' required onChange={handleChange}/>
+                <input type="number" placeholder='Total Travelers' id='guestSize' required onChange={handleChange}/>
             </FormGroup>
             <FormGroup className='d-flex  align-items-center gap-3'>
                 <textarea type="date" placeholder='Your Enquiry' id='enquiry' rows='5'  required onChange={handleChange}/>
@@ -77,16 +77,16 @@ const Booking = ({tour}) => {
      <div className="booking__bottom">
         <ListGroup>
             <ListGroupItem className='border-0 px-0'>
-                <h5>${price} <i className="ri-close-line"></i>  1 person</h5>
-                <span>${price}</span>
+                <h5>NPR {price} <i className="ri-close-line"></i>  1 person</h5>
+                <span>NPR {price}</span>
             </ListGroupItem>
             <ListGroupItem className='border-0 px-0'>
                 <h5>Service charge</h5>
-                <span>${serviceFee}</span>
+                <span>NPR {serviceFee}</span>
             </ListGroupItem>
             <ListGroupItem className='total border-0 px-0'>
                 <h5>Total</h5>
-                <span>${totalAmount} </span>
+                <span>NPR {totalAmount} </span>
             </ListGroupItem>
         </ListGroup>
 
