@@ -20,7 +20,7 @@
       "maxGroupSize": 8,
       "desc": "Chitwan is a district located in the southwestern part of Nepal. It is famous for its national park, the Chitwan National Park, which is a UNESCO World Heritage Site and home to various species of wildlife, including tigers, rhinoceroses, elephants, and many others. The district has a rich cultural heritage, with indigenous Tharu communities and their unique traditions and lifestyle. Chitwan is also known for its beautiful landscapes, dense forests, and serene rivers, making it a popular tourist destination in Nepal.",
   
-      "photo": "/tour-images/tour-img02.jpg",
+      "photo": "https://res.cloudinary.com/dfgo0xoce/image/upload/v1683550579/tour-img02_z3m5lf.jpg",
       "featured": true
     },
     {
@@ -44,7 +44,7 @@
       "maxGroupSize": 8,
       "desc": "Lumbini is a small town located in the southern Terai plains of Nepal. It is considered a holy site for Buddhists, as it is believed to be the birthplace of Siddhartha Gautama, who later became known as Buddha, the founder of Buddhism. Lumbini attracts many visitors from all over the world who come to pay their respects at the sacred site and explore the numerous monasteries, temples, and other historical and cultural attractions in the area.",
   
-      "photo": "/tour-images/tour-img04.jpg",
+      "photo": "/images/tour-img04.jpg",
       "featured": true
     },
     {

@@ -1,25 +1,39 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import '../styles/tourdetails.css'
 import {Container, Row, Col} from 'reactstrap'
 import {useParams} from 'react-router-dom'
-import tourData from '../assets/data/tour'
 import Booking from '../Components/Booking/Booking'
+import useFetch from '../hooks/useFetch'
+import {BASE_URL} from '../utils/config'
 
 const TourDetails = () => {
 
   const {id} = useParams()
-
-  //this is an static data later will call API and load data from database
-  const tour = tourData.find(tour=> tour.id ===id)
+  
+  //fetch data from database
+  const {data:tour,loading, error} =useFetch(`${BASE_URL}/tours/${id}`)
 
   //destructure properties from tour objet
   const {photo, title, desc, price, address, city, distance, maxGroupSize}= tour
+
+  useEffect (()=> {
+    window.scrollTo(0,0)
+  },[tour]);
+
   return (
     <>
       <section>
         <Container>
-          <Row>
+          {
+            loading && <h4 className='text-center pt-5'>Loading..........</h4>
+          }
+          {
+            error && <h4 className='text-center pt-5'>{error}</h4>
+          }
+          {
+            !loading && !error &&
+            <Row>
             <Col lg='8'>
               <div className="tour__content">
                 <img src={photo} alt="" />
@@ -58,6 +72,7 @@ const TourDetails = () => {
             </Col>
             
           </Row>
+          }
         </Container>
       </section>
     </>

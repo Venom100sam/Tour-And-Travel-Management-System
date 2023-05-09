@@ -3,15 +3,16 @@ import './booking.css'
 import { Form, FormGroup, ListGroup, ListGroupItem, Button} from 'reactstrap'
 
 import { useNavigate } from 'react-router-dom';
+import {BASE_URL} from '../../utils/config'
 
 const Booking = ({tour}) => {
-    const {price} = tour;
+    const {price, title} = tour;
     const navigate = useNavigate ()
 
-    const [credentials, setCredentials] = useState({
-        userId: '01', //will make daynamic later
-        userEmail: '',
+    const [booking, setBooking] = useState({
+        userEmail:'',
         fullName: '',
+        tourName: title,
         phone:'',
         bookAt: '',
         guestSize: 1,        
@@ -19,17 +20,26 @@ const Booking = ({tour}) => {
     })
 
     const handleChange = e=> {
-        setCredentials(prev=>({...prev, [e.target.id]:e.target.value}))
+        setBooking(prev=>({...prev, [e.target.id]:e.target.value}))
     };
 
     const serviceFee =10
-    const totalAmount =Number(price) * Number(credentials.guestSize)+ Number(serviceFee)
+    const totalAmount =Number(price) * Number(booking.guestSize)+ Number(serviceFee)
 
     //send data to the server
-    const handleClick=e=>{
+    const handleClick=async e=>{
         e.preventDefault();
 
-        console.log(credentials);
+        const res=await fetch(`${BASE_URL}/tours/booking`, {
+            method: "post",
+        headers:{
+            'content-type': "application/json",
+        },
+        credentials: "include",
+        body: JSON.stringify(booking),
+    })
+
+        console.log(booking);
         navigate("/thank-you");
     }
   return(

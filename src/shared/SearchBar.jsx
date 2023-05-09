@@ -2,15 +2,19 @@ import React,{useRef} from 'react'
 import './search-bar.css'
 import {Col, Form, FormGroup} from 'reactstrap'
 
+import {BASE_URL} from './../utils/config'
+import { useNavigate } from 'react-router-dom'
+
 const SearchBar = () => {
 
     // Refs for the search input fields
     const locationRef =useRef('')
     const distancenRef =useRef(0)
     const maxGroupSizeRef =useRef(0)
+    const navigate = useNavigate()
 
     // Handler for the search button click
-    const searchHandler=()=>{
+    const searchHandler= async()=>{
         // Get the values of the search input fields
         const location = locationRef.current.value
         const distance = distancenRef.current.value
@@ -20,6 +24,13 @@ const SearchBar = () => {
         if(location===''|| distance===''||maxGroupSize===''){
             return alert('All fields are required')
         }
+
+        const res = await fetch(`${BASE_URL}/tours/search/getTourBySearch?city=${location}&distance=${distance}&maxGroupSize=${maxGroupSize}`)
+
+        if(!res.ok) alert('Something went Wrong')
+        const result = await res.json()
+
+        navigate(`/tours/search?city=${location}&distance=${distance}&maxGroupSize=${maxGroupSize}`, {state: result.data})
     }
     
   return (
